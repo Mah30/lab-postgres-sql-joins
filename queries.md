@@ -8,6 +8,25 @@
 
 ```sql
 -- Your Query Goes Here
+library=# SELECT books.title, authors.name  
+FROM books INNER JOIN authors 
+ON books.author_id = authors.id;
+
+
+                 title                  |      name       
+-----------------------------------------+-----------------
+ Harry Potter and the Chamber of Secrets | J.K. Rowling
+ Harry Potter and the Goblet of Fire     | J.K. Rowling
+ 1984                                    | George Orwell
+ Animal Farm                             | George Orwell
+ Adventures of Huckleberry Finn          | Mark Twain
+ The Adventures of Tom Sawyer            | Mark Twain
+ Murder on the Orient Express            | Agatha Christie
+ Oliver Twist                            | Charles Dickens
+ To Kill a Mockingbird                   | Harper Lee
+(9 rows)
+
+
 ```
 
 <br>
