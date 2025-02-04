@@ -65,7 +65,7 @@ Find all technologies in the database:
 
 ```sql
 #  This should be pasted in the queries.md file
-SELECT * FROM technologies;
+select * from technologies;
 ```
 
 <br>
@@ -186,7 +186,7 @@ After you run a query in your `psql` client and get the correct result, remember
 
 <br>
 
-## BONUS: Iteration 3 - Joins (continued)
+## BonUS: Iteration 3 - Joins (continued)
 
 1. Using an **INNER JOIN**, list all books (left table) and their corresponding publishers on the (right table). The result should include the book's title, publisher's name, and location.
 
